@@ -79,3 +79,7 @@ a,
 .footer__text {
     color: red;
 }
+
+p.tex {
+    color: lightseagreen;
+}
