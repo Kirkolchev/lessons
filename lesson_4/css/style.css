@@ -1,0 +1,85 @@
+@import url("reset.css");
+
+
+
+
+* {
+    color: green;
+}
+
+h2 {
+    color: rgb(240, 190, 129);
+}
+
+h2.content-title {
+    color: rgb(255, 15, 15);
+}
+
+.header__container .header__title {
+    color: rgb(214, 115, 33);
+    font-size: 50px;
+}
+
+.header__list a {
+    color: rgb(28, 202, 255);
+    font-size: 20px;
+}
+
+.text.color-text>p {
+    color: blue;
+}
+
+
+.text+p {
+    color: rgb(235, 67, 193);
+}
+
+.chugayster__text~p {
+    color: rgb(218, 105, 0);
+}
+
+.content-title.vii__title {
+    color: rgb(10, 253, 10);
+}
+
+.ghoul__text>p>span {
+    color: gold;
+}
+
+.ghoul__text>p {
+    color: red;
+}
+
+.merman__text2 {
+    color: deeppink;
+}
+
+[class*="link"] {
+    color: blueviolet;
+}
+
+.poverty__title2+p {
+    color: rebeccapurple;
+}
+
+.poverty>.poverty__wrap>.poverty__text+h3 {
+    color: chartreuse;
+}
+
+.poverty__text * {
+    color: coral;
+}
+
+#poverty {
+    color: blueviolet;
+}
+
+.footer__title,
+a,
+.footer__text {
+    color: red;
+}
+
+p.tex {
+    color: lightseagreen;
+}
