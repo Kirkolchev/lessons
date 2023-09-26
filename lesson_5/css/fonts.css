@@ -1,0 +1,23 @@
+/* *Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+
+/* *Підключення вручну */
+@font-face {
+    font-family: "Roboto";
+    src:
+        url(../fonts/Robotobold.woff2) format(woff2),
+        url(../fonts/Robotobold.woff) format(woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Robotobolditalic.woff2) format('woff2'),
+        url(../fonts/Robotobolditalic.woff) format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}

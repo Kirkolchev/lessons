@@ -1,0 +1,124 @@
+@import url(fonts.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+
+
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.4
+}
+
+.menu {
+    font-size: 20px;
+    line-height: 1.8;
+    text-decoration: underline;
+    color: blue;
+}
+
+.content__title {
+    font-size: 50px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: oblique;
+    color: rgb(102, 95, 87);
+    text-shadow: 5px 5px 20px #8a1111;
+}
+
+.title-wrap {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.7;
+    text-transform: capitalize;
+}
+
+.sab-sab__title {
+    font-size: 25px;
+    text-transform: lowercase;
+    word-spacing: 4px;
+}
+
+.who-text p {
+    letter-spacing: 5px;
+    color: #830b0b;
+}
+
+.who-text span {
+    text-decoration: line-through;
+}
+
+.kikimora-text {
+    text-indent: 20px;
+}
+
+.kikimora-text span {
+    text-decoration: underline;
+    color: rgba(100, 124, 124, 0.5);
+}
+
+.kikimora-text a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #8a1111
+}
+
+.list__text {
+    font-size: 25px;
+    line-height: 2;
+    color: rgba(2, 2, 0, 0.781);
+    font-style: oblique;
+}
+
+.book-text a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #8a1111
+}
+
+.container-lesson,
+.text p {
+    text-align: left;
+    color: #7D7D7D;
+}
+
+.title-lesson {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.27;
+    color: #37393F;
+    text-transform: capitalize;
+}
+
+.sab-titile-lesson {
+    color: #6B77E5;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.list-lesson {
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 1.46;
+}
+
+.container__footer h3 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 5px 5px 20px #13271d;
+}
