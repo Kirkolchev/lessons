@@ -1,0 +1,155 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #7d7d7d;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 50px;
+    color: #D06B00;
+    text-shadow: 5px 5px 10px #D06B00;
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+    max-width: 722px;
+    margin: 0 auto;
+}
+
+[src*="img/people-consalt.jpg"] {
+    margin-bottom: 37px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.container h2,
+.container h3,
+.container h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.container-consulting h2 {
+    color: #37393F;
+    line-height: 1.27;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 12.5px;
+}
+
+.container-consulting h3 {
+    color: #6B77E5;
+    line-height: 1.27;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.text {
+    line-height: 1.46;
+}
+
+.text-consulting {
+    margin-bottom: 42px;
+}
+
+.container-consulting {
+    margin-bottom: 40px;
+}
+
+.benefits {
+    font-size: 0px;
+}
+
+[src*="img/network.png"] {
+    margin-right: 29px;
+    width: 331px;
+}
+
+.content-benefits {
+    display: inline-block;
+    max-width: 332px;
+    font-size: 18px;
+}
+
+.benefits h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 1.27;
+}
+
+.benefits h4 {
+    color: #40DDB6;
+    font-size: 20px;
+    line-height: 1.27;
+    margin-bottom: 30px;
+}
+
+.content-benefits li {
+    margin-bottom: 35px;
+}
+
+.container-block {
+    padding: 150px 50px;
+    max-width: 1269px;
+    margin: 0 auto;
+    background-color: #FFF9F4;
+}
+
+.container-block h4 {
+    color: #D06B00;
+    font-size: 28px;
+    margin-bottom: 13px;
+    text-transform: uppercase
+}
+
+.container-block h2 {
+    color: #0E333D;
+    font-size: 59px;
+    font-family: "DM Serif Text", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.jewels {
+    font-size: 0px;
+}
+
+.jewels-content {
+    max-width: 563px;
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.text-jewels {
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+[src*="img/girl.jpg"] {
+    margin-right: 22px;
+}
+
+.jewels>* {
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+}
+
+.link {
+    font-size: 70px;
+    color: rgb(133, 199, 67);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 10px 10px rgb(255, 17, 0);
+}
