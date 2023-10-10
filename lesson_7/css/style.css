@@ -1,0 +1,275 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+.container {
+    max-width: 1218px;
+    margin: 0 auto 100px;
+
+}
+
+.lesson {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 10px 10px #000;
+    margin-bottom: 50px;
+}
+
+.title-one {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title-inform span {
+    border: 7px solid#40DDB6;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.title-inform h5 {
+    display: inline-block;
+}
+
+.title-inform {
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.title,
+.sab-title,
+.title-project,
+.sab-sab-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #37393F;
+}
+
+
+.title {
+    color: #37393F;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.31;
+}
+
+.icons {
+    margin-bottom: 100px;
+}
+
+.sab-title {
+    font-size: 40px;
+    line-height: 1.21;
+    margin-bottom: 11px;
+}
+
+.icons .text {
+    margin-bottom: 32px;
+}
+
+.text {
+    line-height: 1.46;
+}
+
+.sab-sab-title {
+    font-size: 30px;
+}
+
+.sab-sab-title span {
+    font-weight: 400;
+    color: #40DDB6;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.photography {
+    margin-bottom: 100px;
+}
+
+.photography .sab-sab-title {
+    margin-bottom: 17px;
+}
+
+.photo-block,
+.pexels {
+    margin-bottom: 24px;
+}
+
+
+
+.link-photo {
+    line-height: 1.46;
+    color: #40DDB6;
+}
+
+
+.fonts a {
+    font-weight: 500;
+    color: #40DDB6;
+}
+
+
+
+/*  <<<<<<<<<<<<<<<<<<<<<<<PROJECKT>>>>>>>>>>>>>>>>>>>>>>>. */
+
+
+.container-project {
+    max-width: 830px;
+    margin: 0 auto 200px;
+}
+
+.title-project {
+    font-size: 40px;
+    line-height: 1.27;
+    margin-bottom: 13px;
+}
+
+.project-text p:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.text:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.list-project {
+    margin-bottom: 35px;
+    padding-left: 25px;
+    font-weight: 500;
+}
+
+.list-project li:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<CLOTHING>>>>>>>>>>>>>>>> */
+
+.container-clothing {
+    max-width: 1240px;
+    margin: 0 auto 200px;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.40px;
+}
+
+.title-clothing,
+.link-clothing,
+.sab-title-clothing {
+    font-family: "coresansc", sans-serif;
+    font-weight: 600;
+}
+
+.title-wrap span {
+    border: 3px solid #8A33FD;
+    border-radius: 10px;
+    margin: 0px 14px 0px -20px;
+    vertical-align: text-top;
+}
+
+.title-clothing {
+    color: #3C4242;
+    font-size: 28px;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    display: inline;
+}
+
+.title-wrap {
+    margin-bottom: 30px;
+}
+
+.sab-title-clothing {
+    color: #807D7E;
+    line-height: 1.67;
+    margin-bottom: 25px;
+}
+
+.text-clothing {
+    color: #807D7E;
+    line-height: 1.67;
+    /* 33.50/20 */
+}
+
+.text-reexplore span {
+    font-weight: 700;
+}
+
+.text-reexplore {
+    margin-bottom: 25px;
+}
+
+.text-clothing p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.text-shop {
+    margin-bottom: 20px;
+}
+
+.link-clothing {
+    line-height: 1.67;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<JAWELS>>>>>>>>>>>>>>> */
+.container-jewels {
+    max-width: 1110px;
+    margin: 0 auto 100px;
+    font-family: "Cormorant Infant";
+    font-weight: 700;
+
+}
+
+.conten-jewels {
+    display: inline-block;
+    max-width: 503px;
+    margin-right: 75px;
+    vertical-align: middle;
+}
+
+.text-jewels {
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.images-wrap {
+    display: inline-block;
+}
+
+.sab-jewels-title {
+    color: #D58417;
+    font-size: 20px;
+    margin-bottom: 27px;
+
+}
+
+.jewels-title {
+    color: black;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+
+.jewels-image {
+    display: inline-block;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+
+.jewels-image img {
+    vertical-align: middle;
+    border-radius: 235px;
+    margin: 12px 10px -18px -12px;
+    font-size: 0px;
+}
+
+.jewels-girl-one {
+    margin-right: 20px;
+}
