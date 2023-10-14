@@ -1,0 +1,425 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+    background: linear-gradient(90deg, #ff403a23 0%, #3a3dff1c 50%, #f75e0536 100%);
+}
+
+.container__header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.title {
+    color: rgb(52, 45, 117);
+    font-family: "coresansc" sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    border: 1px solid brown;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(102, 182, 102, 0.377);
+
+}
+
+.container-clothing {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 1300px;
+    margin: 0 auto 200px;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.40px;
+    margin-bottom: 100px;
+}
+
+.title-clothing,
+.link-clothing,
+.sab-title-clothing {
+    font-family: "coresansc", sans-serif;
+    font-weight: 600;
+}
+
+.title-wrap span {
+    border: 3px solid #8A33FD;
+    border-radius: 10px;
+    margin: 0px 14px 0px -20px;
+    vertical-align: text-top;
+}
+
+.title-clothing {
+    color: #3C4242;
+    font-size: 28px;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    display: inline;
+}
+
+.title-wrap {
+    margin-bottom: 30px;
+}
+
+.sab-title-clothing {
+    color: #807D7E;
+    line-height: 1.67;
+    margin-bottom: 25px;
+}
+
+.text-clothing {
+    color: #807D7E;
+    line-height: 1.67;
+    /* 33.50/20 */
+}
+
+.text-reexplore span {
+    font-weight: 700;
+}
+
+.text-reexplore {
+    margin-bottom: 25px;
+}
+
+.text-clothing p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.text-shop {
+    margin-bottom: 20px;
+}
+
+.link-clothing {
+    line-height: 1.67;
+}
+
+
+/* ------------------------------------------------- */
+
+
+.shop-container {
+    font-family: "Causten", sans-serif;
+    color: white;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-size: 0px;
+    margin-bottom: 100px;
+}
+
+.content {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.content-first {
+    background: url(../img/shop-1.jpg) 0 0 / cover no-repeat;
+    max-width: 614px;
+    min-height: 640px;
+    display: inline-block;
+    padding: 156px 74px 175px;
+}
+
+.title__shop {
+    font-family: "coresansc", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: 0.21px;
+    line-height: 1.47;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.content-first p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.content-first a {
+    color: #3C4242;
+    font-weight: 600;
+    padding: 12px 44px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.content-two {
+    background: url(../img/shop-2.jpg) 0 0 / cover no-repeat;
+    width: 100%;
+    max-width: 614px;
+    min-height: 640px;
+    display: inline-block;
+    padding-right: 1px;
+}
+
+
+/* -------------------------------------------- */
+
+.container-plan {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 1030px;
+    margin: 0 auto 100px;
+
+}
+
+
+.conent-text h5,
+.title__projects h5 {
+    padding-left: 18px;
+    font-weight: 500;
+    color: #37393F;
+    text-transform: capitalize;
+    background: url(../img/figur-decor.jpg) 0 4px no-repeat;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.conent-text h2,
+.list-plan,
+.plan-item h4,
+.title__projects h2,
+.link-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+}
+
+.conent-text {
+    margin-bottom: 43px;
+}
+
+.conent-text h2,
+.title__projects h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.21;
+    margin-bottom: 20px;
+}
+
+.text-plan {
+    line-height: 1.46;
+    margin-bottom: 20px;
+    max-width: 673px;
+}
+
+.text-plan p:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.list-plan * {
+    font-size: 20px;
+    line-height: 1.4;
+    background: url(../img/lable-list.jpg) 0 0 no-repeat;
+    padding-left: 35px;
+    min-height: 27px;
+}
+
+.list-plan li:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+.plan-item {
+    font-size: 0px;
+    margin-bottom: 37px;
+}
+
+.plan-item-wrap {
+    display: inline-block;
+    max-width: 295px;
+    padding: 31px 32px;
+    border: 1px solid#e3e3e3;
+    font-size: 16px;
+}
+
+.plan-item-wrap:not(:last-child) {
+    margin-right: 21px;
+}
+
+.item {
+    padding-left: 58px;
+    line-height: 1.35;
+    /* 21.63/16 */
+}
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 3px;
+}
+
+.item-first {
+    background: url(../img/lable-icon1.jpg) no-repeat;
+}
+
+.item-two {
+    background: url(../img/lable-icon2.jpg) no-repeat;
+}
+
+.plan-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 21px 27px;
+    background-color: #6B77E5;
+    display: inline-block;
+}
+
+/* ------------------------------------------ */
+
+.container-latest {
+    max-width: 1260px;
+    background-color: #fff;
+    margin: 0 auto 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.title__projects {
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.title__projects h5 {
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.title__projects h2 {
+    margin-bottom: 14px;
+}
+
+.projects-text {
+    line-height: 1.46;
+
+}
+
+
+.projects-content-wrap {
+    font-size: 0px;
+}
+
+.projects-content-wrap:not(:last-child) {
+    margin-bottom: 58px;
+}
+
+.projects-item {
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+}
+
+.projects-item:not(:last-child) {
+    margin-right: 34px;
+}
+
+.image {
+    margin-bottom: 24px;
+}
+
+.image a {
+    display: inline-block;
+    width: 100%;
+    min-height: 501px;
+}
+
+.link-image-financial-pc {
+    background: url(../img/financial-pc.jpg) 0 center no-repeat;
+}
+
+.link-image-marketing {
+    background: url(../img/marketing.jpg) 0 center no-repeat;
+}
+
+.image-consulting {
+    background: url(../img/consulting.jpg) 0 center no-repeat;
+}
+
+.image-financial-women {
+    background: url(../img/financial-women.jpg) 0 center no-repeat;
+}
+
+.image-web {
+    background: url(../img/web.jpg) 0 center no-repeat;
+}
+
+.image-financial-last {
+    background: url(../img/financial-last.jpg) 0 center no-repeat;
+}
+
+
+.text a {
+    display: block;
+}
+
+.link-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    /* 25.40/20 */
+    margin-bottom: 10px;
+
+}
+
+.link-data {
+    font-size: 14px;
+    line-height: 1.46;
+    /* 20.47/14 */
+    background: url(../img/decor-data.jpg) 0 center no-repeat;
+    padding-left: 25px;
+    min-height: 22px;
+}
+
+/* ----------------------------------------------------------------------- */
+footer {
+    height: 100%;
+    width: 100%;
+}
+
+footer .container1 {
+    background-image: url(../img/skai.avif);
+    height: 1000px;
+}
+
+.container1 .racet {
+    background: url(../img/racet.png) center center no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+    background-size: 100px;
+}
+
+footer .container2 {
+    background-image: url(../img/image-1.jpg);
+    height: 1000px;
+}
+
+.container2 .parachut {
+    background: url(../img/parashut.jpg) center center no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    background-size: 400px;
+}
+
+footer .container3 {
+    background-image: url(../img/land.jpg);
+    height: 440px;
+    background-repeat: repeat-x;
+}
+
+.container3 .pipol {
+    background: url(../img/pipol.png)center bottom no-repeat;
+    background-attachment: fixed;
+    background-size: 150px;
+    height: 450px;
+}
