@@ -15,7 +15,7 @@ body {
 
 .title {
     color: rgb(52, 45, 117);
-    font-family: "coresansc" sans-serif;
+    font-family: "coresansc", sans-serif;
     font-size: 50px;
     font-weight: 800;
     border: 1px solid brown;
