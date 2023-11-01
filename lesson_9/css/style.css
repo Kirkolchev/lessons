@@ -1,0 +1,657 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+
+
+.our-item h3,
+.container-about h2,
+.container-about h3,
+.container-consulting h2,
+.container-consulting h3,
+.container-consulting h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #37393F;
+}
+
+.our-item p,
+.questions p,
+.text {
+    line-height: 1.46;
+}
+
+
+.container-header {
+    max-width: 1230px;
+    margin: 0 auto;
+
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title:hover {
+    text-shadow: 5px 5px 10px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.list__nav {
+    color: black;
+}
+
+.list-item__nav {
+    font-family: "Causten", sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.list-item__nav:not(:last-child) {
+    margin-right: 50px;
+}
+
+.list-item__nav:hover {
+    background-color: rgb(192, 207, 177);
+    border-radius: 5px;
+}
+
+
+.container-traing {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap-traing-blok {
+    margin-bottom: 50px;
+}
+
+.traing-blok {
+    display: inline-block;
+    text-align: center;
+}
+
+.traing-blok a {
+    margin-bottom: 15px;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #070606;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.traing-blok a:hover {
+    opacity: 1;
+}
+
+.clouse a:hover {
+    opacity: 1;
+}
+
+.traing-blok:not(:last-child) {
+    margin-right: 20px;
+}
+
+.box:not(:last-child) {
+    margin-right: 30px;
+}
+
+.box {
+    display: none;
+    visibility: hidden;
+    margin-bottom: 40px;
+}
+
+.box:target {
+    visibility: visible;
+    display: block;
+}
+
+.clouse a {
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    padding: 15px 50px;
+    background-color: #020101;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.clouse:target {
+    visibility: hidden;
+}
+
+/*   ------------------JAWELES--------------------- */
+
+
+.container-jewels {
+    text-align: left;
+    max-width: 1212px;
+    margin: 0 auto 100px;
+    font-family: "Cormorant Infant", sans-serif;
+    color: #000;
+    font-size: 0px;
+    visibility: hidden;
+    display: none;
+}
+
+.container-jewels:target {
+    visibility: visible;
+    display: block;
+}
+
+.jeweles-title {
+    font-size: 60px;
+    line-height: 1.15;
+}
+
+.box-title {
+    margin-right: 19px;
+    padding-top: 150px;
+    max-width: 460px;
+}
+
+.jeweles-title::after {
+    content: "";
+    display: block;
+    width: 291px;
+    height: 3px;
+    background-color: #78473B;
+    margin-top: 10px;
+}
+
+.box-title,
+.card-wrap {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.jeweles-card {
+    display: inline-block;
+}
+
+.card-wrap {
+    max-width: 344px;
+    width: 100%;
+}
+
+.card-wrap-first {
+    margin-right: 45px;
+}
+
+.jeweles-card-first {
+    padding-top: 32px;
+}
+
+.jeweles-card p {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.jeweles-card p:not(:last-child) {
+    margin-bottom: 3px;
+
+}
+
+.jeweles-card p:hover {
+    text-decoration: underline;
+}
+
+.item-img-decor {
+    margin-bottom: 34px;
+    border: 1px solid #000000;
+}
+
+
+
+
+.title-collection {
+    font-size: 46px;
+    line-height: 1.13;
+    margin-bottom: 31px;
+    max-width: 334px;
+}
+
+.img-item-first,
+.img-item-two {
+    max-width: 334px;
+    width: 100%;
+    margin: 9px -10px -9px 10px;
+    opacity: 0.95;
+}
+
+
+
+.item-img-decor:hover .jaweles-img {
+    margin: 0px;
+    opacity: 1;
+}
+
+/* ---------------------------------------------------- */
+.container-consulting {
+    padding: 15px;
+    max-width: 722px;
+    margin: 0 auto 100px;
+    display: none;
+}
+
+.container-consulting:target {
+    display: block;
+}
+
+
+
+.questions h2,
+.consulting h2 {
+
+    line-height: 1.27;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 12.5px;
+}
+
+.consulting h3 {
+    color: #6B77E5;
+    line-height: 1.27;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+
+.text-consulting {
+    margin-bottom: 42px;
+}
+
+.consulting {
+    margin-bottom: 40px;
+}
+
+.benefits {
+    font-size: 0px;
+    margin-bottom: 50px;
+}
+
+[src*="img/network.jpg"] {
+    margin-right: 29px;
+    width: 331px;
+}
+
+.content-benefits {
+    display: inline-block;
+    max-width: 332px;
+    font-size: 18px;
+}
+
+.benefits h3 {
+    font-size: 25px;
+    margin-bottom: 13px;
+    line-height: 1.27;
+
+}
+
+.benefits h4 {
+    color: #40DDB6;
+    font-size: 20px;
+    line-height: 1.27;
+    margin-bottom: 21px;
+}
+
+.content-benefits li:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.content-benefits li::before {
+    content: url(../img/decor-list.jpg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    opacity: 0.5;
+}
+
+.content-benefits li:hover::before {
+    opacity: 1;
+}
+
+/* -------------------------------------------- */
+
+.container-about {
+    display: none;
+}
+
+.container-plan {
+    max-width: 675px;
+    margin: 0 auto 100px;
+}
+
+.container-about:target {
+    display: block;
+}
+
+
+.container-about h4 {
+    color: #37393F;
+    font-weight: 500;
+}
+
+
+
+.container-about h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    /* 48.40/40 */
+}
+
+.container-plan h4 {
+    margin-bottom: 14px;
+}
+
+.sab-title-about::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+}
+
+.title-plan {
+    margin-bottom: 10px;
+    max-width: 413px;
+}
+
+.plan-text p:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.plan-text {
+    margin-bottom: 48px;
+}
+
+.our-item {
+    padding: 28px 41px 28px 84px;
+    border: 1px solid #E3E3E3;
+}
+
+.our-item h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.our-item h3::before {
+    content: "";
+    background: url(../img/decor-list.jpg);
+    width: 27px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 19px 0px -46px;
+}
+
+.our-wrap .our-item:not(:last-child) {
+    margin-bottom: 31px;
+}
+
+.our-item:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 0px 10px 1px;
+}
+
+.our-wrap {
+    margin-bottom: 48px;
+}
+
+.button-plan {
+    padding: 22px 35px;
+    background-color: #6B77E5;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.button-plan:hover {
+    background-color: #1729ce;
+
+}
+
+
+.container-work {
+    max-width: 1220px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.sab-title-about {
+    margin-bottom: 16px;
+}
+
+.title-about {
+    margin-bottom: 41px;
+}
+
+.wrap-content {
+    padding-top: 36px;
+    font-size: 0px;
+}
+
+.item {
+    display: inline-block;
+    max-width: 386px;
+    background-color: #F4F4F4;
+    padding: 58px 43px;
+}
+
+.item:hover {
+    box-shadow: 0px 0px 10px 1px;
+}
+
+
+
+.icon-make::before {
+    background: url(..//img/icon-make.jpg) no-repeat center;
+}
+
+.icon-consultation::before {
+    background: url(../img/icon-consultation.jpg) no-repeat center;
+}
+
+.icon-servis::before {
+    background: url(../img/icon-servis.jpg) no-repeat center;
+}
+
+.icon::before {
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin-top: -95px;
+    vertical-align: top;
+}
+
+.item__title {
+    font-size: 25px;
+    line-height: 1.27;
+    /* 31.75/25 */
+    margin-bottom: 16px;
+}
+
+.item-text {
+    margin-bottom: 37px;
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.item-link {
+    font-size: 18px;
+    color: #6B77E5;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.item-link:active {
+    color: #40DDB6;
+}
+
+/* --------------------- GAME----------------- */
+
+footer {
+    padding: 50px;
+}
+
+.game {
+    display: none;
+    background: url(../img/karpati.jpg) bottom / cover no-repeat;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 10px;
+    min-height: 500px;
+    font-size: 0px;
+}
+
+.game:target {
+    display: block;
+}
+
+.game-line {
+    background-color: #F4F4F4;
+    visibility: hidden;
+}
+
+
+.game-start {
+    width: 50px;
+    height: 50px;
+    background-color: #F4F4F4;
+}
+
+.game-start:hover+.game-line,
+.game-line:hover,
+.game-line:hover+.game-line {
+    visibility: visible;
+}
+
+.line-01 {
+    width: 100%;
+    height: 30px;
+
+}
+
+.line-02 {
+    width: 40px;
+    height: 70px;
+    margin-left: auto;
+}
+
+.line-03 {
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+}
+
+.line-04 {
+    width: 30px;
+    height: 200px;
+    display: inline-block;
+}
+
+.line-05 {
+    width: 700px;
+    height: 25px;
+    display: inline-block;
+}
+
+.line-06 {
+    width: 25px;
+    height: 100px;
+    display: inline-block;
+    margin-top: auto;
+}
+
+.line-07 {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 80px;
+}
+
+.line-08 {
+    display: inline-block;
+    width: 20px;
+    height: 100px;
+}
+
+.line-09 {
+    width: 100px;
+    height: 15px;
+    display: inline-block;
+}
+
+.line-10 {
+    width: 13px;
+    height: 60px;
+    display: inline-block;
+    margin-bottom: -45px;
+}
+
+.line-11 {
+    width: 60px;
+    height: 10px;
+    display: inline-block;
+    margin-bottom: -45px;
+}
+
+.line-12 {
+    width: 9px;
+    height: 41px;
+    margin-bottom: -76px;
+    display: inline-block;
+}
+
+.finich {
+    width: 30px;
+    height: 31px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 0px 0px -105px -19px;
+}
+
+
+
+.finich:hover {
+    width: 100%;
+    min-height: 500px;
+    margin: -380px 0 0 0px;
+    background: url(../img/fon-finich.jpg) center /cover no-repeat;
+}
