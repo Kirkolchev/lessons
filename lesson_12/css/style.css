@@ -239,7 +239,7 @@ body {
     left: 0;
     top: 60px;
     padding: 15px;
-    max-width: 150px;
+    width: 150px;
     display: inline-block;
     vertical-align: top;
     background-color: rgb(251, 255, 4);
