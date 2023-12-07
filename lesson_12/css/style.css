@@ -146,7 +146,7 @@ body {
 
 .main--pading {
     padding-top: 100px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .wrap-content {
