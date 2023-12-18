@@ -525,30 +525,6 @@ body {
     animation: rotate 1s linear 4 normal running 0s forwards;
 }
 
-@keyframes scale {
-    0% {
-        transform: scale(1);
-    }
-
-    40% {
-        transform: scale(0.8);
-    }
-
-
-    50% {
-        transform: scale(0.4);
-    }
-
-    70% {
-        transform: scale(0.2);
-    }
-
-    100% {
-        transform: scale(0);
-    }
-}
-
-
 
 @keyframes car__item {
     0% {
@@ -587,7 +563,7 @@ body {
 
 
 .car__item {
-    animation: scale, car__item 15s linear 1 normal 0s forwards;
+    animation: car__item 15s linear 1 normal 0s forwards;
 }
 
 .car__item:hover {
