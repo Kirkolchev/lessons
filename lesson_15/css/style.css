@@ -194,7 +194,7 @@ body {
     padding: 0px 15px;
 }
 
-.producrts__title {
+.products__title {
     font-size: 34px;
     line-height: 1.2;
     margin-bottom: 70px;
@@ -202,7 +202,7 @@ body {
     gap: 15px;
 }
 
-.producrts__title::before {
+.products__title::before {
     content: "";
     flex: 0 0 6px;
     position: relative;
