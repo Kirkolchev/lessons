@@ -536,7 +536,7 @@ textarea:focus::placeholder,
     resize: vertical;
     min-height: 250px;
     width: 100%;
-    padding: 22px 0 0 40px;
+       padding: 22px 40px;
     background: #f8f8f8;
     border: 1px solid #ddd;
 }
