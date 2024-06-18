@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "lesson_19",
+			"path": "../../../Верстка/Курс верстки/lesson_19/lesson_19"
+		},
+		{
+			"name": "lesson_18",
+			"path": "../../../Верстка/Курс верстки/lesson_18/lesson_18"
+		},
+		{
+			"name": "lesson_17",
+			"path": "../../lesson_17/lesson_17"
+		},
+		{
+			"name": "lesson_19",
+			"path": "."
+		},
+		{
+			"path": "../../../Верстка/Курс верстки/lesson_16/lesson_16"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson_19"
+	}
+}
