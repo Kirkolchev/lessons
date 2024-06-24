@@ -1,0 +1,153 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+
+
+
+$bgColor: #FEFBF7;
+$maxWidphon: (991.8px);
+$pointphon: (891.8px);
+$pointmini: (459.8px);
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	background-color: $bgColor;
+	>main {
+		flex-grow: 1;
+	}	
+
+}
+
+
+
+[class*="__container"] {
+	max-width: 1203px;
+	/* 1170 + 15 + 15 */
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.product {
+	font-family: "Cormorant Infant", sans-serif;
+	font-weight: 700;
+	margin-bottom: 100px;
+	// .product__container
+
+
+	// .product__dody
+	&__dody {
+		text-align: center;
+		margin-bottom: 84px;
+
+		&>:not(:last-child) {
+			margin-bottom: 21px;
+		}
+	}
+
+	//.product__title
+	&__title {
+		font-size: 64px;
+		line-height: 100%;
+	}
+
+	// .product__sab-title
+	&__sab-title {
+		color: rgb(96, 96, 96);
+		font-size: 30px;
+		line-height: 140%;
+	}
+
+	@media (max-width:$maxWidphon) {
+		&__title {
+			margin-bottom: 10px;
+			font-size: 50px;
+		}
+		&__dody {
+			margin-bottom: 50px;
+		}
+		@media (max-width:$pointmini){
+			&__dody {
+				margin-bottom: 20px;
+			}
+			&__title {
+				margin-bottom: 10px;
+				font-size: 40px;
+			}
+			&__sab-title{
+				font-size: 25px;
+			}
+		
+		}
+
+	}
+
+	//.product__content
+	&__content {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 30px;
+
+		@media (max-width:$pointphon) {
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		}
+
+		@media (max-width:$pointmini) {
+			justify-items: center;
+			gap: 10px;
+		}
+	}
+
+}
+
+
+.item-card {
+	// .item-card__image
+	&__image {
+		aspect-ratio: 271/270;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		margin-bottom: 20px;
+		transition: transform 0.3s;
+
+		@media (any-hover: hover) {
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	// .item-card__footer
+
+	&__footer {
+		font-size: 24px;
+
+		>:not(:last-child) {
+			margin-bottom: 20px;
+		}
+		@media (max-width:$maxWidphon) {
+			font-size: 20px;
+			>:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		}
+		@media (max-width:$pointmini){
+			text-align: center;
+		}
+	}
+	// .item-card__name
+	&__name {
+		@media (any-hover: hover) {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	// .item-card__prise
+
+	&__prise {}
+
+
+}
