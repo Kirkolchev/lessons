@@ -558,7 +558,6 @@ body {
   display: flex;
   -webkit-box-align: top;
       -ms-flex-align: top;
-          align-items: top;
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
